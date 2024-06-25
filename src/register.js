@@ -14,7 +14,7 @@ const Register = () => {
     e.preventDefault();
 
     try {
-      const response = axios.post("http://localhost:3001/register", {
+      const response = axios.post("https://back-end-8dc5.onrender.com/register", {
         email,
         password,
       });
